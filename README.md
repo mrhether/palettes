@@ -1,5 +1,14 @@
+A small library based on googles android library of the same name. Allows you to easily create visually stunning apps that are also readable
 
 # Usage
+
+### Install
+
+```shell
+npm install palettes
+```
+
+### Use
 
 ```typescript
 import Swatch from 'palettes'
@@ -14,6 +23,7 @@ swatch.titleTextColor.toHex8String()) // '#330000ff'
 # Contributing
 
 ## Run
+
 ```bash
 npm start # or yarn start
 ```
